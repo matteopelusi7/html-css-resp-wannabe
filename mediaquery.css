@@ -5,8 +5,8 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        font-size: 30px;
         margin-top: 0;
+        width: 100%;
     }
 
     #lezioni .row {
@@ -39,6 +39,15 @@
     #why .row>.third {
         width: 100%;
         margin-top: 10px;
+    }
+
+    img {
+        width: 50%;
+        object-fit: contain;
+    }
+
+    #why img {
+        width: 40%;
     }
 
 }
